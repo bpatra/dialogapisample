@@ -7,15 +7,17 @@
   xsi:type="MailApp">
   <Id>71e837b6-a5cf-47fb-be46-e9be93396a80</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Benoit Patra</ProviderName>
+  <ProviderName>Patra</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Dialog Sample" />
+  <DisplayName DefaultValue="DialogSample" />
   <Description DefaultValue="Dialog Sample">
   </Description>
   <IconUrl DefaultValue="https://localhost:44304/images/sample-64.png" />
   <HighResolutionIconUrl DefaultValue="https://localhost:44304/images/sample-128.png"/>
   <SupportUrl DefaultValue="https://localhost:44303/donotexists.html" />
   <AppDomains>
+    <AppDomain>https://login.windows.net</AppDomain>
+    <AppDomain>https://login.microsoftonline.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox" />
